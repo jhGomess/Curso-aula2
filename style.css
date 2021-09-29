@@ -2,3 +2,27 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #202020;
+  font-family: "Roboto", sans-serif;
+}
+
+.side-menu .top-menu {
+  display: flex;
+}
+
+.side-menu .top-menu svg {
+  width: 90px;
+  height: 56px;
+  fill: #fff;
+  padding: 0 0 0 16px;
+}
+
+.side-menu .top-menu .hamburguer svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin: 8px 0 0 16px;
+  padding: 8px;
+}
