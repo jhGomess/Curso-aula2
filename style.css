@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.side-menu {
+  width: 240px;
+  height: 100vh;
+}
+
 .side-menu .top-menu {
   display: flex;
 }
@@ -16,7 +21,7 @@ body {
   width: 90px;
   height: 56px;
   fill: #fff;
-  padding: 0 0 0 16px;
+  padding: 0 0 10px 16px;
 }
 
 .side-menu .top-menu .hamburguer svg {
@@ -25,4 +30,32 @@ body {
   fill: #fff;
   margin: 8px 0 0 16px;
   padding: 8px;
+}
+
+.sections {
+  padding: 2px 0;
+}
+
+.side-menu .sections div {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+}
+
+.sections div:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.side-menu .sections svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin: 0 24px 0 0;
+}
+
+.side-menu .sections p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
 }
