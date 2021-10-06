@@ -21,7 +21,7 @@ body {
   width: 90px;
   height: 56px;
   fill: #fff;
-  padding: 0 0 10px 16px;
+  padding: 0 0 0 16px;
 }
 
 .side-menu .top-menu .hamburguer svg {
@@ -33,7 +33,7 @@ body {
 }
 
 .sections {
-  padding: 2px 0 12px 0;
+  padding: 12px 0 12px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -55,35 +55,6 @@ body {
 }
 
 .side-menu .sections p {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.side-menu .sections-2 {
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.side-menu .sections-2 div {
-  display: flex;
-  align-items: center;
-  padding: 8px 24px;
-}
-
-.sections-2 div:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.side-menu .sections-2 svg {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
-  margin: 0 24px 0 0;
-}
-
-.side-menu .sections-2 p {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
